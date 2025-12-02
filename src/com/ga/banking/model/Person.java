@@ -1,19 +1,8 @@
 package com.ga.banking.model;
 
-public class Person {
-    protected String username;
-    protected String password;
+abstract class Person {
 
-    public Person(String username, String password){
-        this.username = username;
-        this.password = password;
-    }
+    abstract String getUsername();
 
-    public String getUsername() {
-        return username;
-    }
-
-    public String getPassword() {
-        return password;
-    }
+    abstract String getPassword();
 }
