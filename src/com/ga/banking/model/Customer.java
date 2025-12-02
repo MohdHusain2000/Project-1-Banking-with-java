@@ -24,4 +24,12 @@ public class Customer extends Person{
     String getPassword() {
         return password;
     }
+
+    public void addAccount(Account account){
+        accounts.add(account);
+    }
+
+    public List<Account> getAccounts() {
+        return accounts;
+    }
 }
