@@ -1,6 +1,6 @@
 package com.ga.banking.model;
 
-abstract class Person {
+public abstract class Person {
 
     abstract String getUsername();
 
